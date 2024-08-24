@@ -61,3 +61,8 @@ int	ft_printf(const char *str, ...)
 	va_end(ptr);
 	return (count);
 }
+
+int main()
+{
+	ft_printf("Magic %s is %d\n", "number", 42);
+}
