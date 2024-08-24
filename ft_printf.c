@@ -6,7 +6,7 @@
 /*   By: bjniane <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 19:41:49 by bjniane           #+#    #+#             */
-/*   Updated: 2023/11/30 20:01:27 by bjniane          ###   ########.fr       */
+/*   Updated: 2024/08/24 03:33:51 by bjniane          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,3 @@ int	ft_printf(const char *str, ...)
 	return (count);
 }
 
-int main()
-{
-	ft_printf("Magic %s is %d\n", "number", 42);
-}
